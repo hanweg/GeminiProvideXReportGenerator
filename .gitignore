@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Visual Studio files
+.vs/
+*.userprefs
+*.pidb
+*.sln.docstates
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
+*.swp
+*.orig
+
+# Security sensitive files
+*.key
+*.pfx
+*.p12
+appsettings.Development.json
+secrets.json
+getgeminimodels.py
+
+# Chat logs and development artifacts
+chat*.md
+debug*.txt
+*.log
+
+# OS specific files
+Thumbs.db
+.DS_Store
+*.lnk
+
+# IDE specific files
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# Local configuration files that might contain sensitive data
+app.config.user
+web.config.user
+connectionstrings.config

@@ -1,0 +1,26 @@
+<Window x:Class="GeminiProvideXReportGenerator.StartupConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configuration" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="15">
+        <Label Content="Gemini API Key:"/>
+        <TextBox Name="ApiKeyTextBox" Width="300" Margin="0,0,0,10" TextChanged="ApiKeyTextBox_TextChanged"/>
+        <Label Content="Gemini Model:"/>
+        <ComboBox Name="ModelComboBox" Width="300" Margin="0,0,0,10" IsEnabled="False">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding DisplayName}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Name="FetchModelsButton" Content="Fetch Available Models" Width="150" Margin="0,0,0,10" 
+                HorizontalAlignment="Left" Click="FetchModelsButton_Click" IsEnabled="False"/>
+        <TextBlock Name="ModelStatusText" Text="" Foreground="Gray" Margin="0,0,0,10" TextWrapping="Wrap"/>
+        <Label Content="ODBC Data Source (DSN):"/>
+        <ComboBox Name="DsnComboBox" Width="300" Margin="0,0,0,15"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" Width="75" Margin="0,0,10,0" Click="OkButton_Click"/>
+            <Button Content="Cancel" Width="75" IsCancel="True"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
