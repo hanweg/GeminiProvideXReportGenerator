@@ -143,6 +143,11 @@ System: Shows final results in grid
 2. Select "Mirror to SQLite"
 3. Watch status indicator change to show mirrored
 
+<img width="1010" height="761" alt="image" src="https://github.com/user-attachments/assets/632fedbb-b6e8-42de-9c08-beb326c2595d" />
+
+<img width="1010" height="761" alt="image" src="https://github.com/user-attachments/assets/ecc90c55-4e0e-4286-82fe-28caa2378e66" />
+
+
 ### AI-Assisted Queries (Enhanced Flow)
 ```
 You: "Find the latest sales order to customer XYZ"
