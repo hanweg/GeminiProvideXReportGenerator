@@ -81,7 +81,7 @@ By using this software, you acknowledge that you have the necessary licenses for
    - Choose from models like Gemini 2.5 Flash (fast), Gemini 2.5 Pro (advanced), etc.
    - Default is Gemini 1.5 Pro if no models are fetched
 3. **DSN Selection**: Choose your ProvideX ODBC Data Source Name (Configured in Windows ODBC Data Sources)
-4. **Authentication**: The app will prompt for database credentials when needed (Reccomended to save credentials in Windows ODBC Data Source Administrator -> Configure)
+4. **Authentication**: The app will prompt for database credentials when needed (Recommended to save credentials in Windows ODBC Data Source Administrator -> Configure)
 
 ## 💡 How It Works
 
