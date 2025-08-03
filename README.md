@@ -105,10 +105,6 @@ Gemini: Automatically fixes syntax errors or data matching issues
 System: Shows final results in grid
 ```
 
-<img width="1010" height="761" alt="gempvx001" src="https://github.com/user-attachments/assets/88b4f977-9145-438a-bf3f-155c193bc4b7" />
-
-<img width="1010" height="761" alt="gempvx002" src="https://github.com/user-attachments/assets/f7f35902-b094-4d82-afc4-2e3bff0dcb4a" />
-
 ### Intelligent Error Handling
 - **Syntax Errors**: Auto-detects SQL Server vs SQLite syntax issues
 - **Empty Results**: Explores table data to find correct search criteria
