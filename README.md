@@ -1,6 +1,10 @@
 # Gemini ProvideX Report Generator
 
-A powerful C# WPF application that provides AI-human collaborative SQL query generation and data analysis for Sage 100 Advanced ProvideX ERP systems. Features real-time table mirroring from ProvideX to SQLite with Google Gemini AI integration for intelligent query assistance.
+A powerful C# WPF application for AI-assisted SQL query generation and data analysis compatible with Sage 100 Advanced ProvideX ERP systems.
+
+The tool mirrors data from licensed ProvideX databases to SQLite for efficient querying and integrates with Google Gemini AI to help construct, refine, and troubleshoot SQL queries.
+
+Note: This software is an independent project and is not affiliated with, endorsed by, or approved by Sage. It requires a valid licensed installation of Sage 100 Advanced and the ProvideX ODBC driver.
 
 ## 🎯 Overview
 
@@ -263,11 +267,12 @@ This software provides compatibility with third-party systems and uses trademark
 - No partnership, endorsement, or commercial relationship is implied or suggested
 
 ## 🙏 Acknowledgments
+- **Google Gemini AI** — for providing intelligent query assistance.
+- **SQLite Project** — for the embedded database engine.
+- **Sage 100 Advanced ProvideX ERP** — referenced solely for compatibility identification.
+- **Microsoft WPF Team** — for the desktop UI framework.
 
-- **Google Gemini AI**: For providing the intelligent query assistance
-- **SQLite Team**: For the excellent embedded database
-- **Sage 100/ProvideX**: For the robust ERP foundation
-- **Microsoft WPF Team**: For the modern desktop UI framework
+All trademarks are the property of their respective owners. References to third-party products are made under nominative fair use to describe compatibility only.
 
 ---
 
